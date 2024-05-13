@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My HTML File</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $.ajax({
+            url: '/api/protected',
+            headers: {
+                'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ImRqcyI.yDmjG7941z3F901W4lxiScHXroDT3arx9SiJAuXOhT8'
+            },
+            success: function(data) {
+                // Your success code here
+                document.body.innerHTML = data;
+            },
+            error: function(xhr, textStatus, errorThrown) {
+                // Your error code here
+                document.body.innerHTML = errorThrown;
+            }
+        });
+    </script>
+</head>
+<body>
+    <!-- HTML content goes here -->
+</body>
+</html>

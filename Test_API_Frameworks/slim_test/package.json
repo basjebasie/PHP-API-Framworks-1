@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "apidoc": "^1.2.0",
+    "jquery": "^3.7.1"
+  }
+}

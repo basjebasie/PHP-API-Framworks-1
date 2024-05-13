@@ -1,0 +1,2 @@
+# PHP API Framworks
+In de eerste weken heb ik een onderzoek gedaan hoe je het beste een API's op kan zetten. Hierbij heb ik een aantal proefprojecten aangemaakt en die laat ik hier zien waar ik die tijd mee bezig ben geweest. De meest uitgebreide is [HIER](https://github.com/Stage-Bravo/Portfolio/blob/main/Onderzoek/Onderzoeksrapport.pdf) geweest en daar heb ik de beveiliging al in gemaakt en heb ik uiteindelijk gebruikt bij de rest van het project.
